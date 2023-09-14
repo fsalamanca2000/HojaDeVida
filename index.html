@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <nav class="navbar" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="Images/logoLinkedIn.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                LinkedIn
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="row">
+                    <div>
+                        <h1>Mi Hoja de vida</h1>
+                    </div>
+                    <div>
+                        <img src="Images/FotoPerfil.png" alt="Foto Perfil" width="200" height="200">
+                    </div>
+                    <div class="row">
+                        <h5>Nombres y Apellidos</h5>
+                        <p>Juan Felipe Salamanca Gonzalez</p>
+                        <h5>Lugar de Residencia</h5>
+                        <p>Bogotá, Colombia</p>
+                        <h5>Educacion</h5>
+                        <p>Colegio de Nuestra Señora De La Presentación Centro</p>
+                        <p>Platzi</p>
+                        <p>Fundación Universitaria Konrad Lorenz</p>
+                    </div>
+                    <div class="row">
+                        <h5>Lenguajes de Programacion</h5>
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" class="educacion-carrusel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="Images/JavaScript-logo.png" class="d-block w-100" alt="javascript logo">
+                                <div class="carousel-caption d-none d-md-block" id="textoEducacion">
+                                  <h5>JavaScript</h5>
+                                  <p>Creacion de Paginas web estaticas y algunas animaciones</p>
+                                  <p>Desde 2019.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="Images/javaLogo.png" class="d-block w-100" alt="java logo">
+                                <div class="carousel-caption d-none d-md-block" id="textoEducacion">
+                                  <h5>Java</h5>
+                                  <p>Creacion de aplicaciones basicas</p>
+                                  <p>Desde 2021</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Images/c++logo.png" class="d-block w-100" alt="c++ logo">
+                                <div class="carousel-caption d-none d-md-block" id="textoEducacion">
+                                  <h5>C++</h5>
+                                  <p>Creacion de aplicaciones basicas y videojuegos basicos</p>
+                                  <p>Desde 2017</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div>
+                        <h5>Cualidades</h5>
+                        <ul>Responsable</ul>
+                        <ul>Amable</ul>
+                        <ul>Puntual</ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h5>Trabajos previos</h5>
+                        <ul>Freelancer en Desarrollo de paginas Web</ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h5>Proyectos</h5>
+                        <p><a href="https://fsalamanca2000.github.io/">Pagina Web</a></p>
+                        <p><a href="">Desarrollo juego Tetris en 3D</a></p>
+                        <p><a href="https://github.com/fsalamanca2000/Simon-Dice">Desarrollo Simon dice en javascript </a></p>
+                        <p><a href="">Animacion simple conejos</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+              <div class="row">
+                <h4>Mas sobre mi </h4>
+                <p>Soy un chico de 23 años que le encanta la programación y poder desarrollar e innovar con el fin de crear cosas que nos ayuden a mejorar como humanidad, mis conocimientos se enfocan principalmente en el desarrollo fronted de paginas web pero estoy muy interesado en profundizar mas mi conocimientos y aprender sobre el desarrollo backend como lo son las bases de datos.</p>
+              </div> 
+              <div class="spinners">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-secondary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-success" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-danger" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-warning" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-info" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-light" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-dark" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      
+ <div class="row">
+    <footer>
+        <div>
+            <img src="Images/LinkedIn_Logo.svg.png" alt="Logo de linkedIn" width="360" height="80">
+        </div>
+        <div>
+            <p>Made by: Juan Felipe Salamanca Gonzalez</p>
+        </div>
+    </footer>
+ </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
